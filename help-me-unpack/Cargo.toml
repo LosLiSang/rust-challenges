@@ -1,0 +1,15 @@
+[package]
+name = "help-me-unpack"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+bytes = "1.10.1"
+env_logger = "0.11.8"
+http = "1.3.1"
+log = "0.4.27"
+reqwest = { version = "0.12.22", features = ["json"] }
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+tokio = { version = "1.46.1", features = ["full"] }
